@@ -1,0 +1,74 @@
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+  }
+  
+  .link, h2 {
+      letter-spacing: 0.05em;
+      font-weight: bold;
+      padding: 20px;
+      margin: 0;
+      font-size: 20px;
+      line-height: normal;
+      font: normal normal normal 20px/1.4em roboto-bold, roboto, sans-serif;
+  }
+  
+  .link { 
+      text-decoration: none;
+      color: rgb(18, 61, 148);
+  }
+  
+  h2 { 
+      color: #FF4040;
+  }
+  nav ul {
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 25px;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    padding: 20px;
+  }
+  nav li a:hover{
+    color: orange;
+}
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .imagem-central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .texto-central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .texto-central ul{
+    list-style: none;
+    font: normal normal normal 20px/1.4em roboto-bold, roboto, sans-serif;
+    font-weight: bold;
+
+
+
+  }
+.texto-central h3{
+    color: rgb(18, 61, 148);
+    font: normal normal normal 40px/1.4em roboto-bold, roboto, sans-serif;
+    font-weight: bold;
+
+}
